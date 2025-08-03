@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node:*)",
+      "Bash(timeout 10 npm run dev)",
+      "Bash(timeout:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm install:*)",
+      "Bash(taskkill:*)"
+    ],
+    "deny": []
+  }
+}
